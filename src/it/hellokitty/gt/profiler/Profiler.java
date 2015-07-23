@@ -114,7 +114,7 @@ public class Profiler {
 			
 			regionList.add(region);
 		}
-		regions.setRegionList(regionList);
+		regions.setRegion(regionList);
 		
 		// country-list section
 		List<GeoCountries> geoCountryList = userFound.getCountries();

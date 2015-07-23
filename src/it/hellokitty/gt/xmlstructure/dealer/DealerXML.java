@@ -1,5 +1,7 @@
 package it.hellokitty.gt.xmlstructure.dealer;
 
+import javax.xml.bind.annotation.XmlAttribute;
+
 public class DealerXML {
 	private String countryId;
 	private String id;
@@ -13,6 +15,7 @@ public class DealerXML {
 		this.countryId = countryId;
 	}
 	
+	@XmlAttribute(name = "id")
 	public String getId() {
 		return id;
 	}

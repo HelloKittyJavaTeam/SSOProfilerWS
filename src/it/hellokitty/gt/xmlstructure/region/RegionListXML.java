@@ -8,11 +8,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class RegionListXML {
 	List<RegionXML> region;
 
-	public List<RegionXML> getRegionList() {
+	public List<RegionXML> getRegion() {
 		return region;
 	}
 
-	public void setRegionList(List<RegionXML> regionList) {
+	public void setRegion(List<RegionXML> regionList) {
 		this.region = regionList;
 	}
 	
